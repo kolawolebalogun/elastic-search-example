@@ -97,9 +97,4 @@ ENV/
 
 /include
 /bin
-plugins/elasticsearch-5.6.3/config/scripts/
-plugins/elasticsearch-5.6.3/logs/
-plugins/elasticsearch-5.6.3/plugins/
-plugins/kibana-5.6.3-darwin-x86_64/plugins/
-plugins/kibana-5.6.3-darwin-x86_64/src/ui/public/factories/
 /.idea
