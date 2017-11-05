@@ -23,16 +23,15 @@ Clone repository with `git clone https://github.com/kolawolebalogun/elastic-sear
 
 2. You run `pip install -r requirements.txt` to install all dependencies
 
-3. Start elastic search by running `tar -xzf plugins/elasticsearch-5.6.3.tar.gz && ./plugins/elasticsearch-5.6.3/bin/elasticsearch` then visit ![http://localhost:9200/](http://localhost:9200/) on your browser, if you see something like the image below, then u successfully started elasticsearch
+3. Start elastic search by running `cd plugins && tar -xzf elasticsearch-5.6.3.tar.gz && ./elasticsearch-5.6.3/bin/elasticsearch` then visit ![http://localhost:9200/](http://localhost:9200/) on your browser, if you see something like the image below, then u successfully started elasticsearch
 
 ![screenshot](https://user-images.githubusercontent.com/8668661/32416287-38b279da-c247-11e7-8c15-5b22fcd07c9a.png)
 
-4. Optional: Start kibana by running `tar -xzf plugins/kibana-5.6.3-darwin-x86_64.tar.gz && ./plugins/kibana-5.6.3-darwin-x86_64/bin/kibana` then visit ![http://localhost:9200/](http://localhost:5601/) you should see a dashboard like the image below
+4. Start Django Server in another terminal window by running `python manage.py runserver` then visit ![http://127.0.0.1:8000/](http://127.0.0.1:8000/) on your browser.
+
+5. Optional: Start kibana by running `cd plugins && tar -xzf kibana-5.6.3-darwin-x86_64.tar.gz && ./kibana-5.6.3-darwin-x86_64/bin/kibana` then visit ![http://localhost:9200/](http://localhost:5601/) you should see a dashboard like the image below
 
 ![screenshot](https://user-images.githubusercontent.com/8668661/32416395-91f8a108-c248-11e7-841d-ed18ab618029.png)
-
-5. Start Django Server by running `python manage.py runserver` then visit ![http://127.0.0.1:8000/](http://127.0.0.1:8000/) on your browser.
-
 
 ## Note
 ```
